@@ -4,6 +4,7 @@ module WymeditorRails
     initializer "wymeditor-rails.assets.precompile" do |app|
       app.config.assets.precompile += [
         "wymeditor/iframe/**/*",
+        "wymeditor/skins/default/*",
         "wymeditor/lang/en.js",
         "jquery.wymeditor.js"
       ]
